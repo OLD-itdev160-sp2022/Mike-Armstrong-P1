@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+</head>
+<link rel="icon" type="image/x-icon" href="images/Favicon.PNG">
+<link rel="stylesheet" text="text/css" href="css/master.css">
+
+<body>
+    <header>
+        <img src="images/banner1.jpg" alt="Mike Armstrong: In The Bag"/>
+        <img src="images/banner2.jpg" alt="Banner Logo" class="bannerPhoto2"/>
+    </header>
+    <main>
+        <img src="images/bag.jpg" alt="Discmania Link" id="default" class="mainPhoto"/>
+        <table>
+            <thead>
+                <tr>
+                    <th class="text" scope="col">Name</th>
+                    <th class="numberHeader" scope="col">Speed</th>
+                    <th class="numberHeader" scope="col">Glide</th>
+                    <th class="numberHeader" scope="col">Turn</th>
+                    <th class="numberHeader" scope="col">Fade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text" scope="row" id="detail1">-</td>
+                    <td class="numberCell" scope="row" id="detail2">-</td>
+                    <td class="numberCell" scope="row" id="detail3">-</td>
+                    <td class="numberCell" scope="row" id="detail4">-</td>
+                    <td class="numberCell" scope="row" id="detail5">-</td>
+                </tr>
+            </tbody>
+        </table>
+        <p id="write-up"></p>
+        <p id="url"></p>
+    </main>
+    <aside>
+        <h3>Putt & Approach</h3>
+        <button class="button" onclick="pictureChange('discmania-link'), detailsChange('0')">Discmania Link</button>
+        <button class="button" onclick="pictureChange('discraft-zone'), detailsChange('1')">Discraft Zone</button>
+        <h3>Midrange</h3>
+        <button class="button" onclick="pictureChange('axiom-hex'), detailsChange('2')">Axiom Hex</button>
+        <button class="button" onclick="pictureChange('mvp-reactor'), detailsChange('3')">MVP Reactor</button>
+        <button class="button" onclick="pictureChange('innova-gator'), detailsChange('4')">Innova Gator</button>
+        <h3>Fairway</h3>
+        <button class="button" onclick="pictureChange('innova-gazelle'), detailsChange('5')">Innova Gazelle</button>
+        <button class="button" onclick="pictureChange('innova-tl'), detailsChange('6')">Innova TL</button>
+        <button class="button" onclick="pictureChange('innova-teebird'), detailsChange('7')">Innova Teebird</button>
+        <button class="button" onclick="pictureChange('discraft-raptor'), detailsChange('8')">Discraft Raptor</button>
+        <button class="button" onclick="pictureChange('innova-thunderbird'), detailsChange('9')">Innova Thunderbird</button>
+        <h3>Distance</h3>
+        <button class="button" onclick="pictureChange('innova-orc'), detailsChange('10')">Innova Orc</button>
+        <button class="button" onclick="pictureChange('innova-wraith'), detailsChange('11')">Innova Wraith</button>
+        <button class="button" onclick="pictureChange('innova-destroyer'), detailsChange('12')">Innova Destroyer</button>
+    </aside>
+
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
